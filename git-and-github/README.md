@@ -4,10 +4,10 @@
 ## Terms ##
 
 * Directory -> Folder
-* Terminal or Command Line -> Interface for Text Commands
-* CLI -> Command Line Interface
-* cd -> Change Directory
-* Code Editor -> Word Processor for Writing Code
+* Terminal or Command Line -> Interface for text commands
+* CLI -> Command line interface
+* cd -> Change directory
+* Code Editor -> Word processor for writing code
 * Repository -> Project, or the folder/place where your project is kept
 * GitHub -> A website to store your repositories online
 
