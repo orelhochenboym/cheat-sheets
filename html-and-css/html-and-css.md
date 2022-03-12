@@ -31,4 +31,4 @@
 
 ## Nice Images ##
 
-* For commercial use, we must use allowed photos from various websites like [pexels.com](pexels.com) [pixabay.com](pixabay.com)
+* For commercial use, we must use allowed photos from various websites like [pexels.com](https://www.pexels.com/) and [pixabay.com](https://pixabay.com/)
