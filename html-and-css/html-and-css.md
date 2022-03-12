@@ -31,3 +31,6 @@
 ## Nice Images ##
 
 * For commercial use, we must use allowed photos from various websites like [pexels.com](https://www.pexels.com/), [pixabay.com](https://pixabay.com/) and [gratisography.com](https://gratisography.com/)
+
+## Width and Height (Through HTML) ##
+
