@@ -34,3 +34,19 @@
 
 ## Width and Height (Through HTML) ##
 
+* When setting the ```width```, we also setting the ```height``` (HTML calculates appropriate height by correct ratio).
+* We should use images that have the smallest possible dimensions in order to make HTML more efficient.
+
+## External Links ##
+
+* ```<a href="">TEXT HERE</a>``` is the element of links.
+ * The ```href``` attribute is the link to the external resource.
+ * You can have the ```target``` attribute set to ```_blank``` in order to open the resource in a different tab.
+
+## Internal Links ##
+
+* Same ```<a>``` element, but the ```href``` attribute is an html page/file.
+
+## Same Page Links ##
+
+* We add the ```id``` attribute to an HTML element, and in the ```href``` value we put ```#ID VALUE```
