@@ -50,3 +50,12 @@
 ## Same Page Links ##
 
 * We add the ```id``` attribute to an HTML element, and in the ```href``` value we put ```#ID VALUE```
+
+## Images as Links ##
+
+* We use a regular ```<a>``` element and instead of text we put an ```<img>``` element.
+
+## Sup and Sub Elements ##
+
+* Just type the following code in order to see effect:
+ * ```<h1>Hello <sup>1st</sup> I'm all <sub>right</sub></h1>
