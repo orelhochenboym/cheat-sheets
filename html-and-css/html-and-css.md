@@ -59,3 +59,63 @@
 
 * Just type the following code in order to see effect:
  * ```<h1>Hello <sup>1st</sup> I'm all <sub>right</sub></h1>
+
+## Strong and Em Elements ##
+
+* We should use the ```<strong>``` tag and ```<em>``` in order to make a text bold or italic.
+ * If you use it for pure aesthetics, you should do it through css as will be shown later.
+
+## Special Characters ##
+
+* Just google it.
+
+## Ul (Unordered List) and Ol (Ordered List) ##
+
+* ```<ul>``` creates an unordered list (bullets).
+ * Then, to make items in the list you should use the tag ```<li>``` (list item).
+* ```<ol>``` creates an ordered list (numbered).
+* You can nest lists.
+
+## Tables ##
+
+* Use the ```<table>``` tag to create the element.
+ * it has 3 sub elements:
+  * ```<tr>``` which stands for table row.
+  * ```<td>``` which stands for table column.
+  * ```<th>``` which stands for table heading.
+   * ```<th>``` replaces the ```<td>``` element, and makes the text appear in bold form.
+
+## Forms ##
+
+* ```<form action="" method="">```
+ * ```action``` is an attribute which is used to specify where the data will be sent to.
+ * ```method``` is an attribute which is used to specify how the data will be sent.
+* The ```<input type="">``` element allows you to have a textbox. The ```type``` attribute states the type like text or password.
+ * There is the ```name``` attribute which just stands for the name of the data.
+ * There is the ```id``` attribute which makes you typing inside the textbox once if it has the same ```form``` attribute as the label.
+ * There is the ```placeholder``` tag which shows a grey text when textbox is empty.
+ * There is the ```value``` tag which shows an actual value inside the textbox.
+* The ```<button type="">``` element allows you to create a button. The ```type``` attribute is the type of button, like submit -> in order to send the data.
+* The ```<textarea>``` just shows a lot of text in a certain location. 
+
+## Radio Button (in forms etc.) ##
+
+* You can have radio button with the ```input``` element.
+ * ```<input type="radio" name="" id="" value="">TEXT```.
+  * The ```name``` attribute specifies a family of buttons. Like a group.
+  * The ```TEXT``` is the text which will appear on the button.
+  * The ```value``` attribute is the value which will be sent once the form is sent to the server.
+  * You can add the ```checked``` attribute in order to have a default option set.
+
+## Checkbox ##
+
+* ```<input type="checkbox" name="" id="" value="">TEXT```.
+ * Same attributes as radio buttons.
+
+## Select ##
+
+* ```<select name="" id="">```
+ * Has ```<option value="">TEXT</option>``` elements.
+ * This is like unordered lists with list items.
+ * You can test this in order to see exactly what this HTML tag does.
+
