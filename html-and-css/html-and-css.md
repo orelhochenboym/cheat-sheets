@@ -119,3 +119,8 @@
  * This is like unordered lists with list items.
  * You can test this in order to see exactly what this HTML tag does.
 
+## Keyboard Shortcuts ##
+
+* [Windows Keyboard Shortcuts Cheat Sheet](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf)
+
+##  ##
