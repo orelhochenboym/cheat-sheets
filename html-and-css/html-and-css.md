@@ -58,7 +58,7 @@
 ## Sup and Sub Elements ##
 
 * Just type the following code in order to see effect:
- * ```<h1>Hello <sup>1st</sup> I'm all <sub>right</sub></h1>
+ * ```<h1>Hello <sup>1st</sup> I'm all <sub>right</sub></h1>```.
 
 ## Strong and Em Elements ##
 
