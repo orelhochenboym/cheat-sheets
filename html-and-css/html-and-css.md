@@ -125,6 +125,12 @@
 
 * [Windows Keyboard Shortcuts Cheat Sheet](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf)
 
+## Div and Span ##
+
+* ```<div>``` and ```<span>``` are used for grouping.
+ * ```<div>``` is used to group multiple elements.
+ * ```<span>``` is used to group inline content (like text inside a heading/paragrpah etc.).
+
 # CSS #
 
 ## Syntax ##
@@ -137,9 +143,19 @@
 
 ## Id's ##
 
-* Id's go by ```#ID NAME {property:value;}```.
+* Id's go by ```#id {property:value;}```.
 * Id's are unique to **one** HTML element. If you would like to assign an id to multiple elements use a class instead.
 
 ## Class ##
+
+* Classes go by ```.class {property: value;}```.
+* You can have multipe classes on the same HTML element: ```<element class="class1 class2"></element>```.
+
+## Inheritance ##
+
+* Children elements inherit styles from the parent, unless the children have their own styles.
+* Also, they inherit only the properties which the are **not** common with the parent.
+
+## Last Rule, Specificity and Universal Selector ##
 
 * 
