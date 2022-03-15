@@ -1,5 +1,7 @@
 # Cheat Sheet #
 
+# HTML #
+
 ## Headings ##
 
 * We have 6 types of headings.
@@ -123,4 +125,21 @@
 
 * [Windows Keyboard Shortcuts Cheat Sheet](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf)
 
-##  ##
+# CSS #
+
+## Syntax ##
+
+* ```selector {property: value;}```
+
+## Grouping Selectors ##
+
+* You can group selectors like that: ```selector, selector, selector {property:value;}```.
+
+## Id's ##
+
+* Id's go by ```#ID NAME {property:value;}```.
+* Id's are unique to **one** HTML element. If you would like to assign an id to multiple elements use a class instead.
+
+## Class ##
+
+* 
