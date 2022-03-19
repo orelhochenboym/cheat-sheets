@@ -143,7 +143,7 @@
 
 ## Id's ##
 
-* Id's go by ```#id {property:value;}```.
+* Id's go by ```#id {property: value;}```.
 * Id's are unique to **one** HTML element. If you would like to assign an id to multiple elements use a class instead.
 
 ## Class ##
@@ -157,5 +157,24 @@
 * Also, they inherit only the properties which the are **not** common with the parent.
 
 ## Last Rule, Specificity and Universal Selector ##
+
+* Last rule is when we have the same property on one element. It is the last rule (i.e color) which will apply.
+* Specificity is like strength. I.e. if you set a color of a paragraph to red, and before that rule you have a class which sets the color to green and apply the class to the paragraph. It will be green. You can google specificity for more information.
+* Universal selector is ```* {property: value;}``` and applies styles to all elements. It has the least amount of specificity.
+
+## CSS color and background-color Properties ##
+
+* ```color``` changes the color of the text.
+* ```background-color``` changes the background color of an element.
+
+## RGBA ##
+
+* Take 4 numbers, the 4th one is opacity and take value in range(0, 1).
+
+## External Resources For Color ##
+
+* [coolors.co](coolors.co) helps you select amazing color shcemes to your website.
+
+## Units ##
 
 * 
