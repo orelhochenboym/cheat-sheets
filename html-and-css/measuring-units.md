@@ -29,3 +29,7 @@
   * Padding on buttons usually uses ```em``` units.
   * You can set margin-top of all text elements to ```1rem``` and it will be consistent in the entire document.
     * You can change that to ```em``` and the headers will have more spacing as they have a bigger font-size.
+
+### VH and VW ###
+
+* They work in percentages. I.e. ```100vh``` stands for 100% of the screen's height. Same goes for ```vw``` just with width.
