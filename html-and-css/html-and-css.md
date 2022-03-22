@@ -175,6 +175,16 @@
 
 * [coolors.co](coolors.co) helps you select amazing color shcemes to your website.
 
-## Units ##
+## Calc Functions ##
 
-* 
+* You can use ```calc()``` in order to conduct math. I.e. ```calc(100 vh - 100px)```.
+
+## height: auto; min-height; max-height; overflow ##
+
+* ```heihgt: auto;``` is the default value and it sets the height to the minimum heihgt required to contain the child elements/content.
+ * When setting the width, the height is automatically calculated to minimally fit all the child elements/content vertically.
+* We have the ```overflow``` property which is in charge of the excess content once we set a width the the content does not fit the size we set.
+ * The ```hidden``` value hides all content that doesn't fit the size we set it to.
+ * The ```scroll``` value makes it so inside the size you set the element to you can scroll with a scroll bar to see additional content.
+* The ```min-height``` sets the minimum height of an element. If the content needs more than the minimum height the element will adjust to a size which will fit the content.
+* The ```max-height``` set the maximum height of an element. If the content doesnt fit it, use the ```overflow``` property.
