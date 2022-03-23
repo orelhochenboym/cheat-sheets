@@ -204,4 +204,10 @@
 
 ## More Text Properties ##
 
-* 
+* The ```line-height: value;``` property sets the distance in between the lines.
+ * If you use as a ```value``` just a regular number, it means that the value is the number * font size.
+* The ```letter-spacing: value;``` property sets the distance between each letter.
+* The ```text-decoration: value;``` property sets the text decordation of the element. I.e. on ```<a>``` a ```text-decoration: none;``` will get rid of the underline.
+* The ```text-transfrom: value;``` property transforms the text. I.e. to ```uppercase```.
+
+## Box-Model ##
