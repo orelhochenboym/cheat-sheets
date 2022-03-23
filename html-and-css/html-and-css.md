@@ -188,3 +188,9 @@
  * The ```scroll``` value makes it so inside the size you set the element to you can scroll with a scroll bar to see additional content.
 * The ```min-height``` sets the minimum height of an element. If the content needs more than the minimum height the element will adjust to a size which will fit the content.
 * The ```max-height``` set the maximum height of an element. If the content doesnt fit it, use the ```overflow``` property.
+
+## Typography ##
+
+* The ```font-size: value;``` sets the font size to the ```value```.
+* The ```font-familty: value;``` sets the actual font of the element.
+* You can import custom fonts from [Google Fonts](https://fonts.google.com/).
