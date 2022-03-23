@@ -194,3 +194,14 @@
 * The ```font-size: value;``` sets the font size to the ```value```.
 * The ```font-familty: value;``` sets the actual font of the element.
 * You can import custom fonts from [Google Fonts](https://fonts.google.com/).
+* The ```font-weight: value;``` is how thick or thin the characters in the text should be.
+* ```font-style``` sets font style for a text like ```italic```.
+
+## text-align and text-indent ##
+
+* The ```text-align: value;``` decides the text alignment of an element.
+* The ```text-indent: value;``` decides the text indentations of an element. 
+
+## More Text Properties ##
+
+* 
