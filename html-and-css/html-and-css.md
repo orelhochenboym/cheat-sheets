@@ -212,4 +212,8 @@
 
 ## CSS Box Model ##
 
-* [How the CSS Box Model looks like](https://www.washington.edu/accesscomputing/webd2/student/unit3/images/boxmodel.gif)
+![](images/css-box-model.gif)
+
+* You can change padding with ```padding: value;``` or ```padding-top: value;```, ```padding-right: value;```, ```padding-bottom: value;```, ```padding-left: value;```
+ * The general ```padding: value;``` can take 4 arguements in the order mentioned above or 1 arguement which will be applied to all 4 sides or 2 arguements which the first represents top and bottom and the second represents right and left.
+* 
