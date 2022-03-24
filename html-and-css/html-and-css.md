@@ -210,4 +210,6 @@
 * The ```text-decoration: value;``` property sets the text decordation of the element. I.e. on ```<a>``` a ```text-decoration: none;``` will get rid of the underline.
 * The ```text-transfrom: value;``` property transforms the text. I.e. to ```uppercase```.
 
-## Box-Model ##
+## CSS Box Model ##
+
+* [How the CSS Box Model looks like](https://www.washington.edu/accesscomputing/webd2/student/unit3/images/boxmodel.gif)
