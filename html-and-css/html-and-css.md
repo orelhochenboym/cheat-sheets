@@ -173,7 +173,7 @@
 
 ## External Resources For Color ##
 
-* [coolors.co](coolors.co) helps you select amazing color shcemes to your website.
+* [coolors.co](https://coolors.co/) helps you select amazing color shcemes to your website.
 
 ## Calc Functions ##
 
