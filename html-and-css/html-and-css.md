@@ -217,3 +217,19 @@
 * You can change padding with ```padding: value;``` or ```padding-top: value;```, ```padding-right: value;```, ```padding-bottom: value;```, ```padding-left: value;```
  * The general ```padding: value;``` can take 4 arguements in the order mentioned above or 1 arguement which will be applied to all 4 sides or 2 arguements which the first represents top and bottom and the second represents right and left.
 * ```margin``` is the same as ```padding``` in all regards and affects the section shown in the image above.
+* You can add a border and all 3 properties must be written ```border-style: value;```, ```border-width: value;```, ```border-color: value;``` or you can do ```border: width style color;```.
+ * You can have borders on specific sides ```border-bottom: width style color``` or ```border-bottom-style: value;```
+
+## Border Radius and Negative Margin ##
+
+* ```border-radius: value;``` controls how round the corners of the element will be.
+* You can set ```margin``` to a negative value so elements can overlap.
+
+## Outline Property and Offset##
+
+* ```outline``` syntax is the same as ```border-radius```.
+* It has ```outline-offset: value;``` to move the offset further away or inside the element. You can check to see effects.
+
+## Display Property ##
+
+* 
