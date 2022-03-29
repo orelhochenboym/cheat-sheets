@@ -216,4 +216,4 @@
 
 * You can change padding with ```padding: value;``` or ```padding-top: value;```, ```padding-right: value;```, ```padding-bottom: value;```, ```padding-left: value;```
  * The general ```padding: value;``` can take 4 arguements in the order mentioned above or 1 arguement which will be applied to all 4 sides or 2 arguements which the first represents top and bottom and the second represents right and left.
-* 
+* ```margin``` is the same as ```padding``` in all regards and affects the section shown in the image above.
