@@ -75,6 +75,7 @@
 
 * ```<ul>``` creates an unordered list (bullets).
  * Then, to make items in the list you should use the tag ```<li>``` (list item).
+  * ```li``` has ```list-style-type: value;``` to change from bullet type to numbers and ```none```.
 * ```<ol>``` creates an ordered list (numbered).
 * You can nest lists.
 
@@ -217,6 +218,7 @@
 * You can change padding with ```padding: value;``` or ```padding-top: value;```, ```padding-right: value;```, ```padding-bottom: value;```, ```padding-left: value;```
  * The general ```padding: value;``` can take 4 arguements in the order mentioned above or 1 arguement which will be applied to all 4 sides or 2 arguements which the first represents top and bottom and the second represents right and left.
 * ```margin``` is the same as ```padding``` in all regards and affects the section shown in the image above.
+ * You can center the entire **element** by typing ```margin: value auto;```, the ```auto``` value sets the margin to equal size between the 2 sides.
 * You can add a border and all 3 properties must be written ```border-style: value;```, ```border-width: value;```, ```border-color: value;``` or you can do ```border: width style color;```.
  * You can have borders on specific sides ```border-bottom: width style color``` or ```border-bottom-style: value;```
 
@@ -232,4 +234,17 @@
 
 ## Display Property ##
 
-* 
+* The ```display: block;``` always starts a new line and spans full width.
+ * The browser respects width/height, top/bottom margins.
+* The ```display: inline;``` does not start a new line and spans only content.
+ * The browser does not respect width/height, top/bottom margins.
+
+## Descendant Selectors ##
+
+* You can write ```parent child {property: value;}``` like ```ul li {}``` in order to select the ```li```s in the ```ul```.
+ * You can have an unlimited chain like ```ul li a span {}``` etc.
+
+## box-sizing: border-box; and box-sizing: content-box##
+
+* ```content-box``` gives you the default CSS box-sizing behavior. If you set an element's width to 100 pixels, then the element's content box will be 100 pixels wide, and the width of any border or padding will be added to the final rendered width, making the element wider than 100px.
+* ```border-box``` tells the browser to account for any border and padding in the values you specify for an element's width and height. If you set an element's width to 100 pixels, that 100 pixels will include any border or padding you added, and the content box will shrink to absorb that extra width. This typically makes it much easier to size elements. ```box-sizing: border-box``` is the default styling that browsers use for the ```<table>```, ```<select>```, and ```<button>``` elements, and for ```<input>``` elements whose type is ```radio```, ```checkbox```, ```reset```, ```button```, ```submit```, ```color```, or ```search```.
