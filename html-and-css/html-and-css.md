@@ -238,6 +238,12 @@
  * The browser respects width/height, top/bottom margins.
 * The ```display: inline;``` does not start a new line and spans only content.
  * The browser does not respect width/height, top/bottom margins.
+ * The ```display: inline-block;``` doesn't start a new line and the browser respects margin, width, heigth.
+ * The ```display: none;``` removes the element from the flow and collapses the space.
+
+## Opacity and Visibility ##
+
+* ```opacity: 0``` and ```visibility: hidden;``` hide the element but preserves the space.
 
 ## Descendant Selectors ##
 
@@ -248,3 +254,5 @@
 
 * ```content-box``` gives you the default CSS box-sizing behavior. If you set an element's width to 100 pixels, then the element's content box will be 100 pixels wide, and the width of any border or padding will be added to the final rendered width, making the element wider than 100px.
 * ```border-box``` tells the browser to account for any border and padding in the values you specify for an element's width and height. If you set an element's width to 100 pixels, that 100 pixels will include any border or padding you added, and the content box will shrink to absorb that extra width. This typically makes it much easier to size elements. ```box-sizing: border-box``` is the default styling that browsers use for the ```<table>```, ```<select>```, and ```<button>``` elements, and for ```<input>``` elements whose type is ```radio```, ```checkbox```, ```reset```, ```button```, ```submit```, ```color```, or ```search```.
+
+##  ##
