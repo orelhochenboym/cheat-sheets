@@ -258,3 +258,5 @@
 ## Background-Images Basics  ##
 
 * ```background: url('./path');``` to have an image in your project's directory as a background.
+* ```background-repeat: value;``` sets whether the background image will repeat to fill the empty parent.
+ * The value ```round``` makes the image stretch on the entire size of the parent and when there is enough space for another repeat it repeats.
