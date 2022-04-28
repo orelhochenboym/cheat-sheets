@@ -255,8 +255,24 @@
 * ```content-box``` gives you the default CSS box-sizing behavior. If you set an element's width to 100 pixels, then the element's content box will be 100 pixels wide, and the width of any border or padding will be added to the final rendered width, making the element wider than 100px.
 * ```border-box``` tells the browser to account for any border and padding in the values you specify for an element's width and height. If you set an element's width to 100 pixels, that 100 pixels will include any border or padding you added, and the content box will shrink to absorb that extra width. This typically makes it much easier to size elements. ```box-sizing: border-box``` is the default styling that browsers use for the ```<table>```, ```<select>```, and ```<button>``` elements, and for ```<input>``` elements whose type is ```radio```, ```checkbox```, ```reset```, ```button```, ```submit```, ```color```, or ```search```.
 
-## Background-Images Basics  ##
+## Background-Images Basics ##
 
 * ```background: url('./path');``` to have an image in your project's directory as a background.
 * ```background-repeat: value;``` sets whether the background image will repeat to fill the empty parent.
  * The value ```round``` makes the image stretch on the entire size of the parent and when there is enough space for another repeat it repeats.
+* Most of the time we will use the ```no-repeat``` value. But the image wont stretch and wont scale to size. For that we have the ```background-size: value;```
+ * The ```cover``` value will fill the entire parent with the image.
+ * The ```contain``` value will display the image with the original ratio.
+* The ```background-position: value;``` will set the position of the image in it's parent. You can also have individual values like ```10% 30%``` or ```1px 1px``` etc.
+* The ```background-attachment: value;``` will change whether the image when scrolling will stay fixed or move with the rest of the elements.
+* You can write all of the above in short like ```center/cover fixed no-repeat```. The order doesn't matter besides the center/cover.
+
+## Linear Gradients ##
+
+*  You do it with ```background: linear-gradient(), url(./path);```. You can  write in the parenthesis ```color``` values and ```hex``` values like ```linear-gradient(blue, green)```. You can have multiple values.
+*  You can set directons like ```linear-gradient(to top, colors)``` or ```linear-gradient(to bottom, colors)``` or ```linear-gradient(to left, colors)``` or ```linear-gradient(100deg, colors)``` or ```linear-gradient(to top right, colors)``` or.
+* You can have percentages of how much we will have of a certain color like ```linear-gradient(color 20%, color)```.
+* You can have RGBA values like ```linear-gradient()```.
+* For easy gradients you can search google for linear-gradient css generatos like [ColorZilla](https://www.colorzilla.com/gradient-editor/)
+
+## Float ##
